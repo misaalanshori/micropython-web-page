@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>FormTest</title>
+	</head>
+	<body>
+		<h1>Forms Test page gengs</h1>
+		<h3></strong>First Number: ' + firstnum + ' </strong></h3>
+		<h3></strong>Second Number: ' + secnum + ' </strong></h3>
+		<h3></strong>Second Number: ' + calcnum + ' </strong></h3>
+		</br>
+		<form action="/test">
+		  First Number:<br>
+		  <input type="text" name="firstnum" value="420">
+		  <br>
+		  Multiplied by<br>
+		  Second Number:<br>
+		  <input type="text" name="secondnum" value="420">
+		  <br><br>
+		  <input type="submit" value="Submit">
+		</form> 
+
+	</body>
+</html>
